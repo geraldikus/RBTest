@@ -8,5 +8,10 @@
 import Foundation
 
 struct WinsModel {
-    let coeff: Double = 1.92
+    let winCoeff: Double
+    let looseCoeff: Double
+    let returnCoeff: Double
+    let percent1: Double
+    let percent2: Double
+    let percent3: Double
 }
